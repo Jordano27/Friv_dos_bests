@@ -31,7 +31,7 @@
                 <div class="card">
                     <div class="card-body">
                     <div class="card-body"> 
-                        <h3>Acesso Restrito</h3>
+                        <h3>Login</h3>
                     </div>
                     <form action="login.php" method="POST">
                         <div>
