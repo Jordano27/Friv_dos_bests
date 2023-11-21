@@ -25,7 +25,7 @@
             margin-right: 2%;
         }
         .container .games:hover{
-            padding: 4%;
+            padding: 3%;
         }
         .container .games a{
            text-decoration: none;
