@@ -1,3 +1,21 @@
+<?php
+
+if(isset($_POST['submit']))
+{
+
+include_once('config.php');
+
+   $nome = $_POST['nome'];
+   $senha = $_POST['senha'];
+   $email = $_POST['email'];
+
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,senha,email) 
+    VALUES ('$nome','$senha','$email')");
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,7 +93,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="">
+        <form action="cadastro.php" method="POST">
             <fieldset>
                 <legend><b>Cadastro</b></legend>
                 <br>
@@ -85,8 +103,8 @@
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="usuario" id="usuario" class="inputUser" required>
-                    <label for="usuario" class="labelInput">Usuário</label>
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
