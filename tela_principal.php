@@ -76,11 +76,11 @@
                 <img src="imgs/dino.jpeg" alt="">
                 </a>
             </div>
-            <div class="games">
+          <!--  <div class="games">
                 <a href="#">Xadrez
                     <img src="imgs/xadrez.jpeg" alt="">
                 </a>
-            </div>
+            </div>-->
             
         </div>
     </section>
