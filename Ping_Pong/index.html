@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+</head>
+<style>
+    @import url('httpsL//fonts.googleapis.com/css2?family=Poppins&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        text-align: center;
+        background-color: ghostwhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        border-radius: 50px;
+    }
+    canvas{
+        border-radius: 50px;
+        width: 700px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .botao_voltar{
+        text-decoration: none;
+        padding: 1%;
+        border: 1px solid green;
+        color: green;
+        display: flex;
+        justify-content: left;
+        border-radius: 20px;
+        margin-left: -80%;
+        margin-top: 5%;
+        margin-bottom: -3%;
+    }
+    .botao_voltar:hover{
+        background: green;
+        color: white;
+    }
+</style>
+<body>
+    <a href="/friv_dos_bests/tela_principal.php" class="botao_voltar">voltar para Tela inicial</a>
+    <h1>Ping Pong</h1>
+    <canvas></canvas>
+    <p>Seu Jogador é o ESQUERDO. Utilize as teclas "W" e "S" ou "⬆" e "⬇" para controlalo.</p>
+ 
+    <script src="./script.js"></script>
+</body>
+</html>
