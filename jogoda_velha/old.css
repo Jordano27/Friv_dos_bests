@@ -43,3 +43,22 @@
     font-size: 50px;
     background: #f7f7f7;
   }
+
+  .botao_voltar{
+    text-decoration: none;
+    padding: 1%;
+    border: 1px solid green;
+    color: green;
+    display: flex;
+    justify-content: left;
+    border-radius: 20px;
+    margin-left: -80%;
+    margin-top: 5%;
+    margin-bottom: -3%;
+    width: 55%;
+    text-align: center;
+}
+.botao_voltar:hover{
+    background: green;
+    color: white;
+}

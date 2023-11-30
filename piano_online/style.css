@@ -116,6 +116,22 @@ header input {
   bottom: 13px;
   color: #888888;
 }
+.botao_voltar{
+  text-decoration: none;
+  padding: 1%;
+  border: 1px solid green;
+  color: green;
+  display: flex;
+  justify-content: left;
+  border-radius: 20px;
+  margin-left: -80%;
+  margin-top: 5%;
+  margin-bottom: -3%;
+}
+.botao_voltar:hover{
+  background: green;
+  color: white;
+}
 
 @media screen and (max-width: 815px) {
   .wrapper {

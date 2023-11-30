@@ -36,7 +36,10 @@
         .container .games a img {
             border-radius: 10px;
             fill: #F1F1F1;
+            width: 100%;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            height: 70%;
+            margin-top: 15%;
         }
         .titulo{
             display: flex;
@@ -59,17 +62,17 @@
                 </a>
             </div>
             <div class="games">
-                <a href="#">Ping Pong - Online
+                <a href="/friv_dos_bests/Ping_Pong/index.html">Ping Pong - Online
                 <img src="imgs/ping_pong.jpeg" alt="">
                 </a>
             </div>
             <div class="games">
-                <a href="/friv_dos_bests/flappy_bird/index.html">Flappy Bird
-                <img src="imgs/flappy.jpeg" alt="">
+                <a href="/friv_dos_bests/jogoda_velha/old.html">Jogo da Velha
+                <img src="imgs/jogo_velha.jpeg" alt="">
                 </a>
             </div>
             <div class="games">
-                <a href="/friv_dos_bests/dino_chrome/index.html">Dino Chrome
+                <a href="/friv_dos_bests/paint/index.html">Paint
                 <img src="imgs/dino.jpeg" alt="">
                 </a>
             </div>
