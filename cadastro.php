@@ -12,6 +12,8 @@ include_once('config.php');
     $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,senha,email) 
     VALUES ('$nome','$senha','$email')");
 
+header('Location: login.php');
+
 }
 
 

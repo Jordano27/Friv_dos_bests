@@ -60,7 +60,7 @@
             color: dodgerblue;
         }
 
-        button{
+        .inputSubmit{
             background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
             width: 100%;
             border: none;
@@ -71,16 +71,16 @@
             border-radius: 10px;
             
         }
-        button:hover{
+        .inputSubmit:hover{
             background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
         }
     </style>
 </head>
 <body>
     <div class="box">
-        <form action="">
             <fieldset>
                 <legend><b>Login</b></legend>
+                <form action="testLogin.php" method="POST">
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" class="inputUser" required>
@@ -92,7 +92,8 @@
             <label for="senha" class="labelInput">Senha</label>
         </div>
         <br><br>
-        <button>Enviar</button>  
+        <input class="inputSubmit" type="submit" name="submit" value="Enviar"> 
+    </form>
     </div>  
 </fieldset>
 </body>
