@@ -74,6 +74,10 @@
         .inputSubmit:hover{
             background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
         }
+        .cadastrar{
+            color: #fff;
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
@@ -92,7 +96,8 @@
             <label for="senha" class="labelInput">Senha</label>
         </div>
         <br><br>
-        <input class="inputSubmit" type="submit" name="submit" value="Enviar"> 
+        <input class="inputSubmit" type="submit" name="submit" value="Enviar"> <br><br>
+        <a class="cadastrar" href="cadastro.php">Ainda não tenho cadastro!</a>
     </form>
     </div>  
 </fieldset>

@@ -91,6 +91,10 @@ header('Location: login.php');
         #submit:hover{
             background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
         }
+        .cadastrar{
+            color: #fff;
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
@@ -114,7 +118,8 @@ header('Location: login.php');
                     <label for="email" class="labelInput">Email</label>
                 </div>
                 <br><br>
-                <input type="submit" name="submit" id="submit">
+                <input type="submit" name="submit" id="submit"> <br><br>
+                <a class="cadastrar" href="login.php">Já tenho cadastro!</a>
             </fieldset>
         </form>
     </div>
