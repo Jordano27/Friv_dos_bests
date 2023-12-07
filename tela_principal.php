@@ -47,6 +47,23 @@
             align-items: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+        .logout{
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 1px solid blue;
+            border-radius: 10px;
+            padding: 1% 2%;
+            color: blue;
+            display: flex;
+            justify-content: center;
+            width: 5%;
+            margin-left: 5%;
+        }
+        .logout:hover{
+            background: blue;
+            color: #fff;
+           
+        }
         
     </style>
 </head>
@@ -55,6 +72,7 @@
         <h1 class="titulo">FRIV DOS BESTS</h1>
     </header>
     <section>
+        <a href="logout.php" class="logout">sair</a>
         <div class="container">
             <div class="games">
                 <a href="/friv_dos_bests/piano_online/index.html">Piano Online
